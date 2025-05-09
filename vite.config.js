@@ -1,20 +1,31 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
-import path from 'path'
-import tailwindcss from '@tailwindcss/vite'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import path from "path";
+import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
-  // server: {
-  //   proxy: {
-  //     '/api': {
-  //       target: 'https://brok.topshipping.co',
-  //       changeOrigin: true,
-  //       secure: false,
-  //       // rewrite: (path) => path.replace(/^\/api/, ''),
-  //     },
-  //   },
-  //   port: 9099,
-  // },
-})
+    plugins: [react(), tailwindcss()],
+    // server: {
+    //   proxy: {
+    //     '/api': {
+    //       target: 'https://brok.topshipping.co',
+    //       changeOrigin: true,
+    //       secure: false,
+    //       // rewrite: (path) => path.replace(/^\/api/, ''),
+    //     },
+    //   },
+    //   port: 9099,
+    // },
+    server: {
+        port: 9099,
+        proxy: {
+            "/api": {
+                target: "https://tournamentor-project.vercel.app",
+                changeOrigin: true,
+                secure: true,
+                rewrite: (path) => path.replace(/^\/api/, "/api"),
+            },
+        },
+    },
+});
