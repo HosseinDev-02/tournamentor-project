@@ -17,15 +17,15 @@ export default defineConfig({
     //   },
     //   port: 9099,
     // },
-    server: {
-        port: 9099,
-        proxy: {
-            "/api": {
-                target: "https://tournamentor-project.vercel.app",
-                changeOrigin: true,
-                secure: true,
-                rewrite: (path) => path.replace(/^\/api/, "/api"),
-            },
-        },
-    },
+    // server: {
+    //     port: 9099,
+    //     proxy: {
+    //         "/api": {
+    //             target: "https://tournamentor-project.vercel.app",
+    //             changeOrigin: true,
+    //             secure: true,
+    //             rewrite: (path) => path.replace(/^\/api/, "/api"),
+    //         },
+    //     },
+    // },
 });
