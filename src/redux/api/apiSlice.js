@@ -4,7 +4,7 @@ export const apiSlice = createApi({
     reducerPath: "api",
     tagTypes: ['User', 'Player', 'Game', 'Team'],
     baseQuery: fetchBaseQuery({
-        baseUrl: "https://brok.topshipping.co/api",
+        baseUrl: "/api",
         prepareHeaders: (headers) => {
             return headers;
         },
