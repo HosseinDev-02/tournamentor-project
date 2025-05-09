@@ -1,0 +1,48 @@
+@theme {
+
+    /* Colors */
+
+    --color-blue: rgb(90 141 238);
+    --color-indigo: rgb(102 16 242);
+    --color-purple: rgb(111 66 193);
+    --color-pink: rgb(232 62 140);
+    --color-red: rgb(255 91 92);
+    --color-orange: rgb(253 126 20);
+    --color-yellow: rgb(253 172 65);
+    --color-green: rgb(57 218 138);
+    --color-teal: rgb(32 201 151);
+    --color-cyan: rgb(0 207 221);
+    --color-black: rgb(38 60 85);
+    --color-white: rgb(255 255 255);
+    --color-gray-dark: rgba(38, 60, 85, 80%);
+    --color-gray-25: rgba(38, 60, 85, 2.5%);
+    --color-gray-50: rgba(38, 60, 85, 6%);
+    --color-gray-light: rgb(242 243 245);
+    --color-primary: rgb(90 141 238);
+    --color-secondary: rgb(105 128 154);
+    --color-success: rgb(57 218 138);
+    --color-light: rgb(229 233 237);
+    --color-dark: rgb(73 85 99);
+    --color-gray: rgba(38, 60, 85, 50%);
+    --color-muted: rgb(168 177 187);
+    --color-caption: rgb(103 119 136);
+    --color-title: rgb(81 99 119);
+    --color-zinc: rgb(212 216 221);
+
+    /* Fonts-Family */
+
+    --font-Estedad: 'Estedad Regular';
+    --font-Estedad-Medium: 'Estedad Medium';
+    --font-Estedad-Bold: 'Estedad Bold';
+    --font-IranYekan: 'IranYekan Regular';
+    --font-IranYekan-Medium: 'IranYekan Medium';
+    --font-IranYekan-Bold: 'IranYekan Bold';
+
+    /* Fonts-Size */
+
+    --text-2xs: 0.8125rem;
+    --text-2xs--line-height: 1.5rem;
+    --text-2sm: 0.9375rem;
+    --text-2sm--line-height: 1.75rem;
+
+}

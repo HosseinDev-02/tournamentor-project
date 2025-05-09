@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Estedad Regular';
+    src: url("/fonts/estedad/estedad-400.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Estedad Medium';
+    src: url("/fonts/estedad/estedad-500.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Estedad Bold';
+    src: url("/fonts/estedad/estedad-700.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'IranYekan Regular';
+    src: url("/fonts/iran-yekan/iran-yekan-400.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'IranYekan Medium';
+    src: url("/fonts/iran-yekan/iran-yekan-500.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'IranYekan Bold';
+    src: url("/fonts/iran-yekan/iran-yekan-700.woff2") format('woff2');
+}
