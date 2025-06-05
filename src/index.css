@@ -6,7 +6,6 @@
 @layer base {
     body {
         direction: rtl;
-        color: var(--color-caption);
     }
 }
 
@@ -22,8 +21,7 @@
     }
 }
 
-
-@utility container {
+.admin-panel-container {
     max-width: 1440px;
     margin-inline: auto;
 }

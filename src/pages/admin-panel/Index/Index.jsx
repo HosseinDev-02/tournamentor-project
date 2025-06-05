@@ -55,7 +55,7 @@ function AdminPanel() {
         <>
             <Symbols />
 
-            <div className="flex bg-[rgb(243,244,244)] min-h-screen">
+            <div className="flex bg-[rgb(243,244,244)] min-h-screen text-caption">
                 {/* Side Bar */}
                 <div
                     className={`shrink-0 bg-[#182535] h-screen transition-all duration-300 fixed z-[1001] w-64 ${
@@ -396,7 +396,7 @@ function AdminPanel() {
                     </div>
                     {/*  Outlet Content  */}
                     <div className="py-24">
-                        <div className="container">
+                        <div className="admin-panel-container">
                             <Outlet />
                         </div>
                     </div>

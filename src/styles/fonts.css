@@ -22,3 +22,28 @@
     font-family: 'IranYekan Bold';
     src: url("/fonts/iran-yekan/iran-yekan-700.woff2") format('woff2');
 }
+@font-face {
+    font-family: 'Montserrat Black';
+    src: url("/fonts/montserrat/Montserrat-Black.ttf") format('truetype');
+}
+/* Vazir Matn Font */
+
+@font-face {
+    font-family: 'VazirMatn Bold';
+    src: url("/fonts/vazir-matn/Vazirmatn-Bold.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'VazirMatn Light';
+    src: url("/fonts/vazir-matn/Vazirmatn-Light.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'VazirMatn Medium';
+    src: url("/fonts/vazir-matn/Vazirmatn-Medium.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'VazirMatn Regular';
+    src: url("/fonts/vazir-matn/Vazirmatn-Regular.woff2") format('woff2');
+}

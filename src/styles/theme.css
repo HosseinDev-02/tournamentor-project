@@ -30,6 +30,11 @@
     --font-IranYekan: 'IranYekan Regular';
     --font-IranYekan-Medium: 'IranYekan Medium';
     --font-IranYekan-Bold: 'IranYekan Bold';
+    --font-Montserrat-Black: 'Montserrat Black';
+    --font-VazirMatn: 'VazirMatn Regular';
+    --font-VazirMatn-Bold: 'VazirMatn Bold';
+    --font-VazirMatn-Light: 'VazirMatn Light';
+    --font-VazirMatn-Medium: 'VazirMatn Medium';
 
     /* Fonts-Size */
 
@@ -37,13 +42,21 @@
     --text-2xs--line-height: 1.5rem;
     --text-2sm: 0.9375rem;
     --text-2sm--line-height: 1.75rem;
-    
+
     /* Reset-Screen */
 
     --breakpoint-*: initial;
-    --breakpoint-sm: 40rem; // 480px 
-    --breakpoint-md: 48rem; // 768px 
-    --breakpoint-lg: 64rem; // 1024px
-    --breakpoint-xl: 80rem; // 1280px
+
+    /* 480px */
+    --breakpoint-sm: 40rem;
+
+    /* 768px */
+    --breakpoint-md: 48rem;
+
+    /* 1024px */
+    --breakpoint-lg: 64rem;
+
+    /* 1280px */
+    --breakpoint-xl: 80rem;
 
 }

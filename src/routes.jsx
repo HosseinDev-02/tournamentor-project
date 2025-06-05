@@ -1,5 +1,5 @@
 import AdminPanel from "./pages/admin-panel/Index/Index";
-import Index from "./pages/main/Index/Index";
+import MainIndex from "./pages/main/Index/Index";
 import Users from "./pages/admin-panel/Users/Users";
 import Games from "./pages/admin-panel/Games/Games";
 import Genders from "./pages/admin-panel/Genders/Genders";
@@ -16,7 +16,7 @@ import Transactions from "./pages/admin-panel/Transactions/Transactions";
 let routes = [
     {
         path: "/",
-        element: <Index />,
+        element: <MainIndex />,
     },
     {
         path: "/admin-panel",
