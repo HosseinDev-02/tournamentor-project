@@ -47,3 +47,8 @@
     font-family: 'VazirMatn Regular';
     src: url("/fonts/vazir-matn/Vazirmatn-Regular.woff2") format('woff2');
 }
+
+@font-face {
+    font-family: 'WalterTurncoat';
+    src: url("/fonts/walter-turncoat/WalterTurncoat-Regular.ttf") format('truetype');
+}

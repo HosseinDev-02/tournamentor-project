@@ -15,11 +15,17 @@
     --color-caption: rgb(103 119 136);
     --color-title: rgb(81 99 119);
     --color-zinc: rgb(212 216 221);
-
-    /* Purple-Color */
-
-
+    --color-background: rgb(14 16 30);
     --color-purple-*: initial;
+    --color-purple-50: rgb(225 212 255);
+    --color-purple-100: rgb(207 187 255);
+    --color-purple-200: rgb(191 165 255);
+    --color-purple-500: rgb(103 51 246);
+    --color-cyan: rgb(32 214 255);
+    --color-section: rgb(22 22 23);
+    --color-neutral-300: rgb(224 231 249);
+    --color-yellow-light: rgb(255 249 78);
+    --color-gray-900: rgb(183 182 182);
 
 
     /* Fonts-Family */
@@ -35,6 +41,7 @@
     --font-VazirMatn-Bold: 'VazirMatn Bold';
     --font-VazirMatn-Light: 'VazirMatn Light';
     --font-VazirMatn-Medium: 'VazirMatn Medium';
+    --font-WalterTurncoat: "WalterTurncoat";
 
     /* Fonts-Size */
 
@@ -43,19 +50,15 @@
     --text-2sm: 0.9375rem;
     --text-2sm--line-height: 1.75rem;
 
-    /* Reset-Screen */
+    /* Screen */
 
     --breakpoint-*: initial;
-
     /* 480px */
     --breakpoint-sm: 40rem;
-
     /* 768px */
     --breakpoint-md: 48rem;
-
     /* 1024px */
     --breakpoint-lg: 64rem;
-
     /* 1280px */
     --breakpoint-xl: 80rem;
 
