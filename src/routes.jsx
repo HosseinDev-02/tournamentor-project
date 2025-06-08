@@ -16,7 +16,7 @@ import Transactions from "./pages/admin-panel/Transactions/Transactions";
 let routes = [
     {
         path: "/",
-        element: <MainIndex />,
+        element: <MainIndex />
     },
     {
         path: "/admin-panel",

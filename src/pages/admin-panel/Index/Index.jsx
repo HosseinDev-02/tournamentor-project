@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
-import Symbols from "../../../components/Symbols/Symbols";
+import Symbols from "../../../components/admin-panel/Symbols/Symbols";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import {
     BiUser,

@@ -13,6 +13,7 @@
     .sidebar-menu-text {
         @apply overflow-hidden transition-all duration-300 whitespace-nowrap text-ellipsis
     }
+
     .courses-page-loader {
         height: 4rem !important;
         width: 4rem !important;
@@ -24,4 +25,12 @@
 .admin-panel-container {
     max-width: 1440px;
     margin-inline: auto;
+}
+
+#main-index {
+    @apply pt-2 min-h-screen bg-[url(/images/main/bg.webp)] bg-background bg-cover bg-center
+}
+
+.main-header {
+    border: 0.85px solid rgba(255, 255, 255, 0.2);
 }
