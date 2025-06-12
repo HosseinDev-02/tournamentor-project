@@ -3,7 +3,7 @@ import React from "react";
 function PrimaryBorder() {
     return (
         <div
-            className="absolute inset-0 rounded-xl z-[-1]"
+            className="absolute inset-0 rounded-[10px] z-[-1]"
             style={{
                 padding: "0.85px", // ضخامت بوردر
                 background: `
