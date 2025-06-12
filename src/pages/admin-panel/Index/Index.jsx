@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from "react";
 import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
-import Symbols from "../../../components/admin-panel/Symbols/Symbols";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import {
     BiUser,
@@ -19,6 +18,15 @@ import { TbTournament } from "react-icons/tb";
 import { GrGroup } from "react-icons/gr";
 import { useAuth } from "../../../contexts/AuthContext.jsx";
 import Overlay from "../../../components/admin-panel/Overlay/Overlay";
+
+const sidebarItems = [
+    {
+        id: 1,
+        title: '',
+        href: '#'
+    }
+]
+
 function AdminPanel() {
     const [sidebarIsOpen, setSidebarIsOpen] = useState(true);
     const [showSearchBox, setShowSearchBox] = useState(false);
@@ -53,8 +61,6 @@ function AdminPanel() {
 
     return (
         <>
-            <Symbols />
-
             <div className="flex bg-[rgb(243,244,244)] min-h-screen text-caption">
                 {/* Side Bar */}
                 <div
