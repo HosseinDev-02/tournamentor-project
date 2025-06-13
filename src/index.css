@@ -34,3 +34,22 @@
 .main-header {
     border: 0.85px solid rgba(255, 255, 255, 0.2);
 }
+
+.tournaments-banner-swiper {
+    @apply w-full max-h-[652px] h-full !pb-6
+}
+
+.tournaments-banner-swiper .swiper-pagination-bullet {
+    @apply !w-5 !h-5 bg-gray-900 !opacity-100
+}
+
+.tournaments-banner-swiper .swiper-pagination-bullet-active {
+    @apply bg-purple-500
+}
+.tournaments-banner-swiper .swiper-pagination {
+    @apply !top-full !left-0 !h-5 flex justify-start !pl-9
+}
+
+.swiper-3d .swiper-slide-shadow {
+    @apply !opacity-0 !invisible
+}
